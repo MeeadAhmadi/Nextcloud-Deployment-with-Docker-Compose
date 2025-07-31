@@ -25,20 +25,18 @@ Docker Engine (v20.10.0+)
 Docker Compose (v2.0.0+)
 
 2GB+ RAM available
-
-Linux/Windows/macOS host system
+ host system
 
 Deployment Instructions
 1. Clone the repository
 bash
-git clone https://github.com/your-username/nextcloud-docker.git
 cd nextcloud-docker
 2. Configure environment variables
 Create a .env file:
 
 bash
 cp .env.example .env
-nano .env
+vim .env
 Edit the following values:
 
 ini
